@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ToDoList />
+      <div className="container">
+        <ToDoList title="TO DO:" />
+      </div>
     </div>
   );
 }
